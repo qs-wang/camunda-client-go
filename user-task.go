@@ -12,7 +12,7 @@ type IdentityLink struct {
 	UserId string `json:"userId"`
 	// The group id of the candidate
 	GroupId string `json:"groupId"`
-	// the type of the indentity, either candidate or assign
+	// the type of the identity, either candidate or assign
 	Type string `json:"type"`
 }
 
